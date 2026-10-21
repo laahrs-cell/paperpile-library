@@ -157681,39 +157681,38 @@
   year      =  2023
 }
 
-@ARTICLE{Punjani2017-js,
-  title     = "{cryoSPARC}: algorithms for rapid unsupervised cryo-{EM}
-               structure determination",
-  author    = "Punjani, Ali and Rubinstein, John L and Fleet, David J and
-               Brubaker, Marcus A",
+@ARTICLE{Bepler2019-as,
+  title     = "Positive-unlabeled convolutional neural networks for particle
+               picking in cryo-electron micrographs",
+  author    = "Bepler, Tristan and Morin, Andrew and Rapp, Micah and Brasch,
+               Julia and Shapiro, Lawrence and Noble, Alex J and Berger, Bonnie",
   journal   = "Nat. Methods",
-  publisher = "Nature Publishing Group",
-  volume    =  14,
-  number    =  3,
-  pages     = "290--296",
-  abstract  = "A software tool, cryoSPARC, addresses the speed bottleneck in
-               cryo-EM image processing, enabling automated macromolecular
-               structure determination in hours on a desktop computer without
-               requiring a starting model. Single-particle electron
-               cryomicroscopy (cryo-EM) is a powerful method for determining the
-               structures of biological macromolecules. With automated
-               microscopes, cryo-EM data can often be obtained in a few days.
-               However, processing cryo-EM image data to reveal heterogeneity in
-               the protein structure and to refine 3D maps to high resolution
-               frequently becomes a severe bottleneck, requiring expert
-               intervention, prior structural knowledge, and weeks of
-               calculations on expensive computer clusters. Here we show that
-               stochastic gradient descent (SGD) and branch-and-bound maximum
-               likelihood optimization algorithms permit the major steps in
-               cryo-EM structure determination to be performed in hours or
-               minutes on an inexpensive desktop computer. Furthermore, SGD with
-               Bayesian marginalization allows ab initio 3D classification,
-               enabling automated analysis and discovery of unexpected
-               structures without bias from a reference map. These algorithms
-               are combined in a user-friendly computer program named cryoSPARC
-               ( http://www.cryosparc.com ).",
-  month     =  feb,
-  year      =  2017,
+  publisher = "Springer Science and Business Media LLC",
+  volume    =  16,
+  number    =  11,
+  pages     = "1153--1160",
+  abstract  = "Cryo-electron microscopy is a popular method for the
+               determination of protein structures; however, identifying a
+               sufficient number of particles for analysis can take months of
+               manual effort. Current computational approaches find many false
+               positives and require ad hoc postprocessing, especially for
+               unusually shaped particles. To address these shortcomings, we
+               develop Topaz, an efficient and accurate particle-picking
+               pipeline using neural networks trained with a general-purpose
+               positive-unlabeled learning method. This framework enables
+               particle detection models to be trained with few sparsely labeled
+               particles and no labeled negatives. Topaz retrieves many more
+               real particles than conventional picking methods while
+               maintaining low false-positive rates, is capable of picking
+               challenging unusually shaped proteins (for example, small,
+               non-globular and asymmetric particles), produces more
+               representative particle sets and does not require post hoc
+               curation. We demonstrate the performance of Topaz on two
+               difficult datasets and three conventional datasets. Topaz is
+               modular, standalone, free and open source (
+               http://topaz.csail.mit.edu ).",
+  month     =  nov,
+  year      =  2019,
   language  = "en"
 }
 
@@ -180743,6 +180742,222 @@
                about as fast as BLAST for protein searches.",
   month     =  oct,
   year      =  2011,
+  language  = "en"
+}
+
+@ARTICLE{Cutler2022-fd,
+  title     = "Omnipose: a high-precision morphology-independent solution for
+               bacterial cell segmentation",
+  author    = "Cutler, Kevin J and Stringer, Carsen and Lo, Teresa W and Rappez,
+               Luca and Stroustrup, Nicholas and Brook Peterson, S and Wiggins,
+               Paul A and Mougous, Joseph D",
+  journal   = "Nat. Methods",
+  publisher = "Springer Science and Business Media LLC",
+  volume    =  19,
+  number    =  11,
+  pages     = "1438--1448",
+  abstract  = "Advances in microscopy hold great promise for allowing
+               quantitative and precise measurement of morphological and
+               molecular phenomena at the single-cell level in bacteria;
+               however, the potential of this approach is ultimately limited by
+               the availability of methods to faithfully segment cells
+               independent of their morphological or optical characteristics.
+               Here, we present Omnipose, a deep neural network
+               image-segmentation algorithm. Unique network outputs such as the
+               gradient of the distance field allow Omnipose to accurately
+               segment cells on which current algorithms, including its
+               predecessor, Cellpose, produce errors. We show that Omnipose
+               achieves unprecedented segmentation performance on mixed
+               bacterial cultures, antibiotic-treated cells and cells of
+               elongated or branched morphology. Furthermore, the benefits of
+               Omnipose extend to non-bacterial subjects, varied imaging
+               modalities and three-dimensional objects. Finally, we demonstrate
+               the utility of Omnipose in the characterization of extreme
+               morphological phenotypes that arise during interbacterial
+               antagonism. Our results distinguish Omnipose as a powerful tool
+               for characterizing diverse and arbitrarily shaped cell types from
+               imaging data.",
+  month     =  nov,
+  year      =  2022,
+  language  = "en"
+}
+
+@ARTICLE{Zack1977-iu,
+  title     = "Automatic measurement of sister chromatid exchange frequency",
+  author    = "Zack, G W and Rogers, W E and Latt, S A",
+  journal   = "J. Histochem. Cytochem.",
+  publisher = "SAGE Publications",
+  volume    =  25,
+  number    =  7,
+  pages     = "741--753",
+  abstract  = "An automatic system for detecting and counting sister chromatid
+               exchanges in human chromosomes has been developed. Metaphase
+               chromosomes from lymphocytes which had incorporated
+               5-bromodeoxyuridine for two replication cycles were treated with
+               the dye 33258 Hoechst and photodegraded so that the sister
+               chromatids exhibited differential Giemsa staining. A
+               computer-controlled television-microscope system was used to
+               acquire digitized metaphase spread images by direct scanning of
+               microscope slides. Individual objects in the images were
+               identified by a thresholding procedure. The probability that each
+               object was a single, separate chromosome was estimated from size
+               and shape measurements. An analysis of the spatial relationships
+               of the dark-chromatid regions of each object yielded a set of
+               possible exchange locations and estimated probabilities that such
+               locations corresponded to sister chromatid exchanges. A
+               normalized estimate of the sister chromatid exchange frequency
+               was obtained by summing the joint probabilities that a location
+               contained an exchange within a single, separate chromosome over
+               the set of chromosomes from one or more cells and dividing by the
+               expected value of the total chromosome area analyzed. Comparison
+               with manual scoring of exchanges showed satisfactory agreement up
+               to levels of approximately 30 sister chromatid exchanges/cell, or
+               slightly more than twice control levels. The processing time for
+               this automated sister chromatid exchange detection system was
+               comparable to that of manual scoring.",
+  month     =  jul,
+  year      =  1977,
+  language  = "en"
+}
+
+@ARTICLE{Suloway2005-xb,
+  title     = "Automated molecular microscopy: the new Leginon system",
+  author    = "Suloway, Christian and Pulokas, James and Fellmann, Denis and
+               Cheng, Anchi and Guerra, Francisco and Quispe, Joel and Stagg,
+               Scott and Potter, Clinton S and Carragher, Bridget",
+  journal   = "J. Struct. Biol.",
+  publisher = "Elsevier BV",
+  volume    =  151,
+  number    =  1,
+  pages     = "41--60",
+  abstract  = "We report here on the current state of our efforts in automated
+               molecular microscopy. Our primary automated data acquisition
+               software system, Leginon, has been completely redesigned over the
+               past two years. The new distributed system has been developed
+               using the Python programming language and is compatible with both
+               Linux and Windows operating systems. The new flexible
+               architecture was designed to allow for the development of
+               customized data collection protocols, several of which are
+               described here. The system has been used to acquire data for
+               approximately 150 experiments and we have demonstrated the
+               capacity for high throughput data acquisition by acquiring images
+               of more than 100,000 particles in a single session at the
+               microscope.",
+  month     =  jul,
+  year      =  2005,
+  language  = "en"
+}
+
+@ARTICLE{Punjani2017-js,
+  title     = "{cryoSPARC}: algorithms for rapid unsupervised cryo-{EM}
+               structure determination",
+  author    = "Punjani, Ali and Rubinstein, John L and Fleet, David J and
+               Brubaker, Marcus A",
+  journal   = "Nat. Methods",
+  publisher = "Nature Publishing Group",
+  volume    =  14,
+  number    =  3,
+  pages     = "290--296",
+  abstract  = "A software tool, cryoSPARC, addresses the speed bottleneck in
+               cryo-EM image processing, enabling automated macromolecular
+               structure determination in hours on a desktop computer without
+               requiring a starting model. Single-particle electron
+               cryomicroscopy (cryo-EM) is a powerful method for determining the
+               structures of biological macromolecules. With automated
+               microscopes, cryo-EM data can often be obtained in a few days.
+               However, processing cryo-EM image data to reveal heterogeneity in
+               the protein structure and to refine 3D maps to high resolution
+               frequently becomes a severe bottleneck, requiring expert
+               intervention, prior structural knowledge, and weeks of
+               calculations on expensive computer clusters. Here we show that
+               stochastic gradient descent (SGD) and branch-and-bound maximum
+               likelihood optimization algorithms permit the major steps in
+               cryo-EM structure determination to be performed in hours or
+               minutes on an inexpensive desktop computer. Furthermore, SGD with
+               Bayesian marginalization allows ab initio 3D classification,
+               enabling automated analysis and discovery of unexpected
+               structures without bias from a reference map. These algorithms
+               are combined in a user-friendly computer program named cryoSPARC
+               ( http://www.cryosparc.com ).",
+  month     =  feb,
+  year      =  2017,
+  language  = "en"
+}
+
+@ARTICLE{Goddard2018-xa,
+  title     = "{UCSF} {ChimeraX}: Meeting modern challenges in visualization and
+               analysis",
+  author    = "Goddard, Thomas D and Huang, Conrad C and Meng, Elaine C and
+               Pettersen, Eric F and Couch, Gregory S and Morris, John H and
+               Ferrin, Thomas E",
+  journal   = "Protein Sci.",
+  publisher = "Wiley",
+  volume    =  27,
+  number    =  1,
+  pages     = "14--25",
+  abstract  = "UCSF ChimeraX is next-generation software for the visualization
+               and analysis of molecular structures, density maps, 3D
+               microscopy, and associated data. It addresses challenges in the
+               size, scope, and disparate types of data attendant with
+               cutting-edge experimental methods, while providing advanced
+               options for high-quality rendering (interactive ambient
+               occlusion, reliable molecular surface calculations, etc.) and
+               professional approaches to software design and distribution. This
+               article highlights some specific advances in the areas of
+               visualization and usability, performance, and extensibility.
+               ChimeraX is free for noncommercial use and is available from
+               http://www.rbvi.ucsf.edu/chimerax/ for Windows, Mac, and Linux.",
+  month     =  jan,
+  year      =  2018,
+  keywords  = "biomolecular visualization and analysis; density maps;
+               integrative hybrid modeling; interactive molecular graphics;
+               large-scale data; light-sheet microscopy; structural biology;
+               virtual reality",
+  language  = "en"
+}
+
+@ARTICLE{Liebschner2019-nc,
+  title     = "Macromolecular structure determination using {X}-rays, neutrons
+               and electrons: recent developments in Phenix",
+  author    = "Liebschner, Dorothee and Afonine, Pavel V and Baker, Matthew L
+               and Bunkóczi, Gábor and Chen, Vincent B and Croll, Tristan I and
+               Hintze, Bradley and Hung, Li Wei and Jain, Swati and McCoy,
+               Airlie J and Moriarty, Nigel W and Oeffner, Robert D and Poon,
+               Billy K and Prisant, Michael G and Read, Randy J and Richardson,
+               Jane S and Richardson, David C and Sammito, Massimo D and
+               Sobolev, Oleg V and Stockwell, Duncan H and Terwilliger, Thomas C
+               and Urzhumtsev, Alexandre G and Videau, Lizbeth L and Williams,
+               Christopher J and Adams, Paul D",
+  journal   = "Acta Crystallogr. D Struct. Biol.",
+  publisher = "International Union of Crystallography (IUCr)",
+  volume    =  75,
+  number    = "Pt 10",
+  pages     = "861--877",
+  abstract  = "Diffraction (X-ray, neutron and electron) and electron
+               cryo-microscopy are powerful methods to determine
+               three-dimensional macromolecular structures, which are required
+               to understand biological processes and to develop new
+               therapeutics against diseases. The overall structure-solution
+               workflow is similar for these techniques, but nuances exist
+               because the properties of the reduced experimental data are
+               different. Software tools for structure determination should
+               therefore be tailored for each method. Phenix is a comprehensive
+               software package for macromolecular structure determination that
+               handles data from any of these techniques. Tasks performed with
+               Phenix include data-quality assessment, map improvement, model
+               building, the validation/rebuilding/refinement cycle and
+               deposition. Each tool caters to the type of experimental data.
+               The design of Phenix emphasizes the automation of procedures,
+               where possible, to minimize repetitive and time-consuming manual
+               tasks, while default parameters are chosen to encourage best
+               practice. A graphical user interface provides access to many
+               command-line features of Phenix and streamlines the transition
+               between programs, project tracking and re-running of previous
+               tasks.",
+  month     =  oct,
+  year      =  2019,
+  keywords  = "C++; Phenix; Python; X-rays; automation; cctbx; cryo-EM;
+               diffraction; macromolecular crystallography; neutrons",
   language  = "en"
 }
 
